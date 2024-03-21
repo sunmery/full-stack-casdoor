@@ -8,7 +8,7 @@ export default function CallbackPage  ()  {
             sdk={Setting.sdk}
             serverUrl={sdkConfig.serverUrl}
             saveTokenFromResponse={(res) => {
-                console.log(res.formData);
+                console.log(res);
                 // Setting.setToken(res.data);
                 // Setting.goToLink("/");
                 location.href = "/"

@@ -1,5 +1,6 @@
 import Setting from "../settings/casdoor.ts";
 import sdkConfig from "../config/casdoor.ts";
+import {SilentSignin} from "casdoor-react-sdk";
 
 const LoginPage = () => {
     const login = (
@@ -13,13 +14,14 @@ const LoginPage = () => {
         // app: app-built-in默认
         // client_id=014ae4bd048734ca2dea&response_type=code&redirect_uri=https%3A%2F%2Fforum.casbin.com%2Fcallback&scope=read&state=app-casnode
         //fetch(`http://192.168.2.185:8000/signup/?or,ganizationName=${organizationName}&client_id=${client_id}&response_type=${response_type}&redirect_uri=${redirect_uri}&scope=${scope}&state=${state}`, {
-        fetch(`http:/localhost:9000/callback`,{
-            method: "GET",
-        }).then((res) => {
-            console.log(res.body)
-        }).catch(err => {
-            console.error(err)
-        })
+        // fetch(`http://localhost:8080/api/signin?code=${code}&state=${state}`,{
+        //     method: "POST",
+        // }).then((res) => {
+        //     console.log(res)
+        // }).catch(err => {
+        //     console.error(err)
+        // })
+        return Setting.sdk.getSigninUrl();
     }
     return <>
         <button
