@@ -1,0 +1,39 @@
+certificate: |
+  -----BEGIN CERTIFICATE-----
+  MIIE3TCCAsWgAwIBAgIDAeJAMA0GCSqGSIb3DQEBCwUAMCgxDjAMBgNVBAoTBWFk
+  bWluMRYwFAYDVQQDEw1jZXJ0LWJ1aWx0LWluMB4XDTI0MDMxOTEwMDMzOVoXDTQ0
+  MDMxOTEwMDMzOVowKDEOMAwGA1UEChMFYWRtaW4xFjAUBgNVBAMTDWNlcnQtYnVp
+  bHQtaW4wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDmzKKv3TxnTNIh
+  brYRAVPHKnU3k2zdbgjL94eLirQEMVJ8W3IoTLWaymowpFAs0t5oGxuOGRVA+HFJ
+  yDTi4YygM1Uh4jIhfla6n1fI4GduS5beZJKKurgv9qAJnIkjjLDEtFqqyk03rs8t
+  c95fGhpZQMErRcn0eBDejOj6xfJX0E/wcmss+pLfYo66kqOIYKy7nM4RllO6IySr
+  cGRPfbL5el2VsMjLyYbZOBb539ebUOAT53QwEB/SqmGaowRp3jWQIuACB15m2Dr1
+  Iy+osAtLN86BmW8az05jppuO/aexYjbxnZiFCPwHtPWxR3pdZtLLuzHx13BHa2UM
+  ndmG/zp/qt2ibUz96a1b0cVCxjtRpuYlq40s8wNBWfU3qC03o+3F+0bptot5PYJO
+  76CtH3sk841iuip4gwQxVVt2xhKKhpGQrUerbWq5Wo51Q0Mw+uD3RrBsD6CuaMRC
+  Wm4UBawbome26d/3jfeR2RGAI0SINtHfuAmv55DMT6old8NT79wv7wTURyZUiI9e
+  d6AZqDU616elZtfSCSCHNhXfs/S36yHZO0FFitDmWzaVvwIYacwT+EAeRqLPvT38
+  TuAVHfcRClahihaDa/g6q2zLkPqeYx74c8XrfwQLtwO6J+LFPxhhREw7KhJ4Ygsn
+  VcnfWfOwM0/SLvpYQmK2MeVkaUcpXQIDAQABoxAwDjAMBgNVHRMBAf8EAjAAMA0G
+  CSqGSIb3DQEBCwUAA4ICAQDYGLJmaTFow/yLgBqiP0fjRu+71fjvan18xlt7BaEp
+  1CAlu4dsi6cdA0s1vy1C3jk2FDHbJ2NTHyzeWiwQZGAAGCu6ZOSRUJ6x7SQ7acmj
+  K1PeAG0d0f6XQBIhOD4d8TF/MuJFxhcagPGX+Jy/CkAAcGOkI9Mnzrvvi5fyStMl
+  ndixXQVrDUeju9UciBBbdYOBJeGcTSiO8zk4fID7rhFcZBhGXagcZqXBYUNDQJ2G
+  Lh+Ar341ugf+QAYI6UVhPzuCt4V4JQ5nbkBMc5IPtpPM4itqR98WmUhpDFl4YXIu
+  B/wtweyEwOkfhTSAyVSDokrm4I7APxYTQSQ5zlN5sCkjexJRuUjzIyWAZsFd9PnM
+  9mguDlyTCe1/oMl2LyXOVaMN8TjPA9uxXQq79UejxDO0pgTporKtSZiob4I0OtT5
+  +WIQWkEm0KfylyrQQ9SMgs9VJidwp8hqJlLni3n3adIi5aGyGm46Qr7PvaDjl6o0
+  L/o4eoGjvtief9GertR4zAH0WE0sfr+218Eir1jASVvzFBztEHg2uNqZ2vCfv+bW
+  F84i8v9t7xGqy5jgp7dKnZp3HFjvuGV1seum3yPNtn947wrjjMNdfswiHc3MQsuI
+  EGRECL6Dd65JXxECd/nGIeZxiXCnWgkXvelRjCd597gZAipw0zvaN/mi2xLyZXR4
+  jg==
+  -----END CERTIFICATE-----
+server:
+#  endpoint: "https://door.casdoor.com"
+  endpoint: "http://192.168.2.185:8000"
+  client_id: "eabcdcfca6f148af79f9"
+  client_secret: "417db4734cd23c410edd90d9e0cd57659d478287"
+#  organization: "casbin"
+  organization: "built-in"
+  application: "app-built-in"
+  frontend_url: "http://localhost:3000"
